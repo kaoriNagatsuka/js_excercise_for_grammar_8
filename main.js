@@ -78,7 +78,7 @@ function showTodos() {
     console.log(line);
     console.log(headline);
     console.log(line);
-    if (todos.length !== 0) {
+    if (todos.length > 0) {
         todos.forEach((todoName, index) => {
             console.log(`${index} : ${todoName}`);
         });
